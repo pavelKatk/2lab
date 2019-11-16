@@ -1,8 +1,7 @@
 package com.movies.movie;
 
-import com.movies.movie.domain.Movies;
 import com.movies.movie.domain.Rating;
-import com.movies.movie.repos.MoviesRepo;
+
 import com.movies.movie.repos.RatingRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,8 +13,6 @@ import  java.util.Map;
 
 @Controller
 public class GreetingController {
-    @Autowired
-    private MoviesRepo moviesRepo;
 
     @Autowired
     private RatingRepo ratingRepo;
@@ -27,34 +24,21 @@ public class GreetingController {
     }
 @GetMapping
     public String main(Map< String, Object> model) {
-        Iterable<Movies> movies =  moviesRepo.findAll();
         Iterable<Rating> ratings = ratingRepo.findAll();
 
-        model.put("movies", movies);
         model.put("ratings", ratings);
         return "main";
 }
 
 @PostMapping("/main")
-    public String add(@RequestParam String name, @RequestParam String genre, @RequestParam String country,
-                      @RequestParam Integer year, @RequestParam Integer duration, @RequestParam Integer audience,
+    public String add(@RequestParam Integer audience,
                       @RequestParam Float rating, @RequestParam Float fees,  Map<String, Object> model) {
 
-        Movies movie = new Movies(year, name, country, genre, duration);
-
-        moviesRepo.save(movie);
-        //ratingRepo.save(rate);
-
-        Iterable<Movies> movies =  moviesRepo.findAll();
-        //Iterable<Rating> ratings = ratingRepo.findAll();
-
-        model.put("movies", movies);
-        //model.put("ratings", ratings);
         Rating rate = new Rating(rating, audience, fees);
-        rate.setMovies(movie);
         ratingRepo.save(rate);
+        Iterable<Rating> ratings = ratingRepo.findAll();
 
-
+        model.put("ratings", ratings);
         return "main";
 }
 

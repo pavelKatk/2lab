@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a6d2dd-addd-4eaa-800e-4af7735b1221" name="Default Changelist" comment="" />
+    <list default="true" id="42a6d2dd-addd-4eaa-800e-4af7735b1221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movie/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movie/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movie/domain/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movie/domain/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movie/domain/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movie/domain/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movie/repos/MoviesRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movie/repos/MoviesRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movie/repos/RatingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movie/repos/RatingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movie/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movie/GreetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movie/domain/Movies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movie/domain/Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movie/domain/Rating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movie/repos/MoviesRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movie/repos/RatingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movie/repos/RatingRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.mustache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +46,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TOEWVt9FdgFJFJsLQSPl6tSpVr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -84,11 +104,25 @@
       <workItem from="1573645464214" duration="11006000" />
       <workItem from="1573822592507" duration="19000" />
       <workItem from="1573823747538" duration="125000" />
-      <workItem from="1573837136637" duration="2100000" />
+      <workItem from="1573837136637" duration="4446000" />
+      <workItem from="1573912239074" duration="1551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

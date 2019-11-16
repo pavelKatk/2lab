@@ -12,10 +12,6 @@ public class Rating {
     }
 
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "movies_id")
-    private Movies movies;
-
     public Rating(Float rating, Integer audience, Float fees) {
         this.rating = rating;
         this.audience = audience;
@@ -62,14 +58,6 @@ public class Rating {
 
     public void setFees(Float fees) {
         this.fees = fees;
-    }
-
-    public Movies getMovies() {
-        return movies;
-    }
-
-    public void setMovies(Movies movies) {
-        this.movies = movies;
     }
 
 

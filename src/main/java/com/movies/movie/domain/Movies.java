@@ -1,4 +1,4 @@
-package com.movies.movie.domain;
+/*package com.movies.movie.domain;
 
 import javax.persistence.*;
 
@@ -94,4 +94,4 @@ public class Movies {
     public void setDuration(Integer duration) {
         this.duration = duration;
     }
-}
+}*/
